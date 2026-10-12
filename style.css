@@ -1,0 +1,56 @@
+body {
+    background-color: lightgray;
+}
+
+.main {
+    width: 320px;
+    background-color: black;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.row button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #444;
+    color: white;
+    font-size: 20px;
+}
+
+.row .orange {
+    background-color: orange;
+}
+
+.row .zero {
+    width: 130px;
+    border-radius: 30px;
+}
+
+#clear, #remove {
+    background-color: gray;
+}
